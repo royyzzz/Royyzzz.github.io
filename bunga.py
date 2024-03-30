@@ -1,0 +1,20 @@
+import turtle
+t = turtle.Turtle()
+s = turtle.screen()
+
+s.bgcolor('#262626')
+t.pencolor('magenta')
+t.speed(100)
+
+col = ('cyan','yellow','red','light green')
+        for n in range(5):
+        for x in range(8):
+        t.speed(x+10)
+        for i in range(2):
+            t.pensize(2):
+            t.circle(80+n*20,90)
+            t.It(90)
+        t,It(45)
+    t,pencolor(col[n%4])
+    s.exitonclick()
+    turtle.done()
